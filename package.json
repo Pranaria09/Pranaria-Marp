@@ -4,7 +4,7 @@
     "dev": "npx @marp-team/marp-cli -s ./src --theme-set ./styles/*.css",
     "build": "ls -la && rimraf public && npm run -s og-image && npm run -s deck",
     "deck": "ls -la && npx @marp-team/marp-cli --no-stdin public/src/*/index.md -o public/index.html && ncp assets public/assets",
-    "og-image": "npx @marp-team/marp-cli --no-stdin public/src/*/index.md -o public/og-image.jpg"
+    "og-image": "npx @marp-team/marp-cli --no-stdin ./src/*/index.md -o public/og-image.jpg"
   },
   "repository": {
     "type": "git",
