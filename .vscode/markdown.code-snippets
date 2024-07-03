@@ -1,0 +1,33 @@
+{
+    "marpToc": {
+      "prefix": "marp-toc",
+      "body": [
+        "# 目次",
+        "",
+        "<!--",
+        "_class: toc",
+        "-->",
+        "",
+        "- Page 1",
+        "- Page 2",
+        "- Page 3",
+        "- Page 4",
+        "- Page 5"
+      ],
+      "description": "table of contents of marp"
+    },
+    "marpOneMessage": {
+      "prefix": "marp-one-message",
+      "body": [
+        "# TITLE",
+        "",
+        "![opacity:0.1 bg grayscale]()",
+        "",
+        "<!--",
+        "_class: lead",
+        "-->"
+      ],
+      "description": "marp one message slide"
+    }
+  }
+  

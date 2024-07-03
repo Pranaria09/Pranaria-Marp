@@ -1,0 +1,16 @@
+{
+  "name": "pranaria-marp",
+  "scripts": {
+    "dev": "npx @marp-team/marp-cli -s ./src --theme-set ./styles/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranaria09/Pranaria-Marp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pranaria09/Pranaria-Marp.git/issues"
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}

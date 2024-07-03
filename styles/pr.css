@@ -1,0 +1,6 @@
+/* @theme pr */
+@import "base";
+
+:root {
+  --background-theme: rgb(255, 205, 205);
+}

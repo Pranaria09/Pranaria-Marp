@@ -1,0 +1,6 @@
+/* @theme lt */
+@import "base";
+
+:root {
+  --background-theme: rgb(250, 215, 255);
+}

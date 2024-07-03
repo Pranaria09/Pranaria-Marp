@@ -1,0 +1,6 @@
+/* @theme mtg */
+@import "base";
+
+:root {
+  --background-theme: rgb(255, 255, 255);
+}
