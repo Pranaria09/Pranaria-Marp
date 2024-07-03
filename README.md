@@ -1,6 +1,6 @@
 # marp-beginner-advanced
 
-![exchange_to_html](https://github.com/Pranaria09/Pranaria-Marp#README)
+![deploy pages](https://github.com/Pranaria09/Pranaria-Marp/action/workflows/pages.yml/badge.svg)
 
 ## What is Marp?
  - Marpとは、Markdownでslideを作ることができるライブラリです。
