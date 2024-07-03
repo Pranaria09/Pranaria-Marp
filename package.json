@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "npx @marp-team/marp-cli -s ./src --theme-set ./styles/*.css",
     "build": "ls -la && echo build && rimraf public && npm run -s og-image && npm run -s deck",
-    "deck": "ls -la && npx @marp-team/marp-cli --no-stdin ./src -o ./src/index.html && ncp assets ./src/assets",
+    "deck": "ls -la && npx @marp-team/marp-cli --stdin ./src -o ./src/index.html && ncp assets ./src/assets",
     "og-image": "echo og-image && npx @marp-team/marp-cli --no-stdin ./src -o ./src/og-image.jpg"
   },
   "repository": {
