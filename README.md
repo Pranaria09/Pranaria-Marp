@@ -17,16 +17,15 @@ shellは変更して、
 ができるようにしました。
 
 ## About Library
-必要だったライブラリ
  - google chronium (pdf用。Linux。)
  - @marp-team/marp-cli@latest (marpのcliライブラリ。)
 
 
-詰まったこと
+## About usually stop
  - ~~htmlの埋め込みをするためにpackage.jsonに `"html": true`を入れる必要があったこと~~ ->必要なかった。
  - pdf化するためにchroniumが必要だったこと
 
-各コマンド
+## About command
  - `npm run dev`:   Viewerの表示
  - `npm run pdf`:   src下の.mdファイルを全てpdf化(名前を指定できるように直す予定)
  - `npm run pptx`:  src下の.mdファイルを全てpptx化(名前を指定できるように直す予定)
