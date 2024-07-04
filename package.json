@@ -2,8 +2,8 @@
   "name": "pranaria-marp",
   "scripts": {
     "dev": "npx @marp-team/marp-cli -s ./src --theme-set ./styles/*.css",
-    "build": "ls -la && echo build && rimraf public && npm run -s og-image && npm run -s deck",
-    "deck": "ls -la && npx @marp-team/marp-cli --no-stdin ./src && ncp ./src/assets ./src/assets",
+    "build": "ls -la && echo build && npm run -s og-image && npm run -s deck",
+    "deck": "ls -la && npx @marp-team/marp-cli --no-stdin ./src",
     "og-image": "echo og-image && npx @marp-team/marp-cli --images jpeg --no-stdin ./src",
     "pptx": "npx @marp-team/marp-cli ./src --pptx --theme-set ./styles/*.css",
     "pdf": "npx @marp-team/marp-cli ./src --pdf --theme-set ./styles/*.css --allow-local-files --pdf-outlines"

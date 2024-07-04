@@ -35,12 +35,30 @@ jobs:
 
       - name: Build Marp slide deck
         run: CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') npm run build
+        env:
+          # Please update URL if you want to use custom domain
+          URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
 
+      - name: Check dir before upload
+        run: |
+          ls -la 
+          pwd
+          cd ..
+          pwd
+          ls -la
+          cd ..
+          pwd
+          ls -la
+          cd ..
+          pwd
+          ls -la 
+          cd ..
+          pwd
+          ls -la
       - name: Upload page artifacts
-        run: ls -la
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
