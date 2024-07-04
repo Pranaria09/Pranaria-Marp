@@ -1,4 +1,4 @@
-# marp-beginner-advanced
+# Pranaria-Marp
 
 [![GitHub Pages](https://github.com/Pranaria09/Pranaria-Marp/actions/workflows/pages.yml/badge.svg)](https://github.com/Pranaria09/Pranaria-Marp/actions/workflows/pages.yml)
 
@@ -32,10 +32,4 @@ shellは変更して、
 
 ## Other
 今回はGithubPagesにデプロイしています。
-独自ドメインを使用する際は、
-GithubActionsである
-.github/workflows/pages.ymlで
-`Build marp slide deck`の部分に、以下のことを記入してください。
-`env:
-    # Please update URL if you want to use custom domain
-    URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}`
+都合に応じて、./github/workflowsのymlを変更してください。

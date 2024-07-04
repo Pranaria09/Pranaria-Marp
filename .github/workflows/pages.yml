@@ -39,22 +39,6 @@ jobs:
           # Please update URL if you want to use custom domain
           URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}
 
-      - name: Check dir before upload
-        run: |
-          ls -la 
-          pwd
-          cd ..
-          pwd
-          ls -la
-          cd ..
-          pwd
-          ls -la
-          cd ..
-          pwd
-          ls -la 
-          cd ..
-          pwd
-          ls -la
       - name: Upload page artifacts
         uses: actions/upload-pages-artifact@v3
         with:
