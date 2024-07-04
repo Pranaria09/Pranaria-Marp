@@ -24,6 +24,15 @@ shellは変更して、
  - google chronium (pdf用。Linux。)
  - @marp-team/marp-cli@latest (marpのcliライブラリ。)
 
+## Recommend VSCode-Extention
+ - Paste Image (https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)
+   - 画像貼り付けを効率化するライブラリ
+ - :emojisense: (https://marketplace.visualstudio.com/items?itemName=bierner.emojisense)
+   - 絵文字挿入を効率化するライブラリ
+ - Markdown All in One (https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+   - Markdownの書きやすさ向上、表の挿入等の機能を使えるライブラリ
+ - Markdown Table Prettifier (https://marketplace.visualstudio.com/items?itemName=darkriszty.markdown-table-prettify)
+   - 表をエディタ上でフォーマットするライブラリ
 
 ## About usually stop
  - ~~htmlの埋め込みをするためにpackage.jsonに `"html": true`を入れる必要があったこと~~ ->必要なかった。
