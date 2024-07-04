@@ -29,3 +29,13 @@ shellは変更して、
  - `npm run dev`:   Viewerの表示
  - `npm run pdf`:   src下の.mdファイルを全てpdf化(名前を指定できるように直す予定)
  - `npm run pptx`:  src下の.mdファイルを全てpptx化(名前を指定できるように直す予定)
+
+## Other
+今回はGithubPagesにデプロイしています。
+独自ドメインを使用する際は、
+GithubActionsである
+.github/workflows/pages.ymlで
+`Build marp slide deck`の部分に、以下のことを記入してください。
+`env:
+    # Please update URL if you want to use custom domain
+    URL: https://${{ github.event.repository.owner.name }}.github.io/${{ github.event.repository.name }}`
