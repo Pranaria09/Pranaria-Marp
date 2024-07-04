@@ -41,6 +41,16 @@ jobs:
           ls -la 
           pwd
           cd ..
+          pwd
+          ls -la
+          cd ..
+          pwd
+          ls -la
+          cd ..
+          pwd
+          ls -la 
+          cd ..
+          pwd
           ls -la
       - name: Upload page artifacts
         uses: actions/upload-pages-artifact@v3
